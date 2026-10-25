@@ -1,0 +1,55 @@
+.detalhes-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: #EDC4B3;
+}
+
+.imagem-placeholder-grande {
+  width: 100%;
+  height: 200px;
+  background-color: #EAEAEA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.info-detalhes h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.descricao-longa {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.valor-destaque {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #000;
+}
+
+.acoes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: auto;
+}
+
+.btn-excluir {
+  background-color: #AC3131;
+  color: #FFF;
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+}

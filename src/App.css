@@ -1,0 +1,52 @@
+/* Estilos compartilhados entre todas as telas */
+
+.container {
+  width: 400px;
+  min-height: 600px;
+  background-color: #EDC4B3;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.header {
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #B0C4DE;
+  border-bottom: 2px solid #000;
+}
+
+.telhado {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.header h1 {
+  font-size: 18px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 15px;
+  font-weight: bold;
+  border-radius: 4px;
+  transition: opacity 0.2s;
+  font-family: inherit;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.btn-voltar {
+  background-color: #888;
+  color: #FFF;
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+}
