@@ -1,0 +1,155 @@
+.btn-voltar {
+  background: transparent;
+  color: var(--primary);
+  padding: 0.5rem 0;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.btn-voltar:hover {
+  text-decoration: underline;
+}
+
+.detalhes-card {
+  background: var(--surface);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  border: 1px solid var(--border);
+}
+
+.detalhes-hero {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.capa-grande {
+  width: 110px;
+  height: 155px;
+  background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.15);
+  flex-shrink: 0;
+}
+
+.detalhes-titulo h1 {
+  font-size: 1.6rem;
+  color: var(--primary-dark);
+  margin-bottom: 4px;
+}
+
+.autor {
+  color: var(--text-muted);
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.meta-badges {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.tag,
+.tag-ano,
+.tag-fav {
+  font-size: 0.8rem;
+  padding: 4px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.tag {
+  background: var(--primary-light);
+  color: var(--primary-dark);
+}
+
+.tag-ano {
+  background: var(--bg);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+
+.tag-fav {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.resenha-section {
+  border-top: 1px solid var(--border);
+  padding-top: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.resenha-section h2 {
+  font-size: 1rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 0.5rem;
+}
+
+.resenha-section p {
+  line-height: 1.6;
+  color: var(--text);
+  white-space: pre-wrap;
+}
+
+.detalhes-acoes {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--border);
+  padding-top: 1.25rem;
+}
+
+.btn-fav,
+.btn-editar,
+.btn-deletar {
+  padding: 0.7rem 1.2rem;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  flex: 1;
+  min-width: 140px;
+}
+
+.btn-fav {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.btn-editar {
+  background: var(--primary-light);
+  color: var(--primary-dark);
+}
+
+.btn-deletar {
+  background: #fee2e2;
+  color: var(--danger);
+}
+
+.btn-deletar:hover {
+  background: var(--danger);
+  color: white;
+}
+
+.btn-editar:hover {
+  background: var(--primary);
+  color: white;
+}
+
+.btn-fav:hover {
+  background: #fde68a;
+}
