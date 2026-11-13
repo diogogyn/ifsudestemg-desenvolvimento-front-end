@@ -26,7 +26,8 @@ npx create-react-app imobiliaria-app
 cd imobiliaria-app
 
 # Rodar o projeto
-npm start
+npm install
+npm run dev
 
 # Estrutura de Pastas 
 imobiliaria-app/
